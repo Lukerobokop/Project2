@@ -1,0 +1,49 @@
+.smith {
+    width: 50%;
+}
+
+#brad {
+    float: right;
+}
+
+div{
+    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.main{
+    padding-top: 5%;
+}
+#guns{
+    Width: 100%;
+   }
+span{
+    color: red;
+}
+body{
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.4em;
+}
+
+@media only screen and (max-width: 450px) {
+div{
+    position: relative;
+    width: 100%;
+    margin: 1%;
+
+}
+}
+@media only screen and (max-width: 768px) and (min-width: 451px){
+    .main{
+        width: 99%;
+        margin: 1%;
+        padding-top: 55%;
+    }
+    .header{
+        padding: 0%;
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
